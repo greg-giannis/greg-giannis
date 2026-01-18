@@ -3,7 +3,7 @@ layout: default
 title: Γρηγόρης Γιαννής
 ---
 
-🇬🇧 [English](index.html) | 📄 [Λήψη PDF](assets/cv-el.pdf)
+🇬🇧 [English](index.html) | 📄 [Λήψη PDF (Ελληνικά)](assets/cv-el.pdf)
 
 # Γρηγόρης Γιαννής  
 **Ηλεκτρονικός Μηχανικός / IT Support Specialist**
@@ -107,6 +107,7 @@ title: Γρηγόρης Γιαννής
 - Ημ. Γέννησης: 10/02/1969
 - Τόπος Γέννησης: Μυτιλήνη
 - Στρατιωτικές Υποχρεώσεις: Εκπληρωμένες
+
 
 
 
