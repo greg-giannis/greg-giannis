@@ -37,6 +37,18 @@ body.dark-mode #darkModeToggle {
   color: #ffffff;   /* bright text on dark background */
   border: 1px solid #666;
 }
+/* Hover effect (light mode) */
+#darkModeToggle:hover {
+  background-color: #e0e0e0;
+  opacity: 0.9;
+}
+
+/* Hover effect (dark mode) */
+body.dark-mode #darkModeToggle:hover {
+  background-color: #444444;
+  opacity: 0.9;
+}
+
 </style>
 
 <script>
@@ -159,6 +171,7 @@ body.dark-mode #darkModeToggle {
 - Ημ. Γέννησης: 10/02/1969
 - Τόπος Γέννησης: Μυτιλήνη
 - Στρατιωτικές Υποχρεώσεις: Εκπληρωμένες
+
 
 
 
