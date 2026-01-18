@@ -10,7 +10,6 @@ title: Grigoris Giannis
 📍 Athens, Greece  
 📧 greg_giannis@hotmail.com  
 📞 +30 210 211 6954 | +30 697 797 9884  
-🔗 [Greek version](cv-el.html) | 📄 [Download PDF](assets/cv-grigoris-giannis.pdf)
 
 ---
 
@@ -106,4 +105,5 @@ Design and Development of DCS1800 Mobile Telephony System (COSMOTE)
 ---
 
 © Grigoris Giannis
+
 
