@@ -1,8 +1,9 @@
-🇬🇷 [Ελληνικά](cv-el.html) | 📄 [Download PDF](assets/cv-grigoris-giannis.pdf)
 ---
 layout: default
 title: Grigoris Giannis
 ---
+
+🇬🇷 [Ελληνικά](cv-el.html) | 📄 [Download PDF](assets/cv-grigoris-giannis.pdf)
 
 # Grigoris Giannis  
 **Electronics Engineer | IT Support Specialist**
@@ -105,5 +106,6 @@ Design and Development of DCS1800 Mobile Telephony System (COSMOTE)
 ---
 
 © Grigoris Giannis
+
 
 
