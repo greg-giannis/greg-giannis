@@ -2,9 +2,6 @@
 layout: default
 title: Grigoris Giannis
 ---
-
-🇬🇷 [Ελληνικά](cv-el.html) | 📄 [Download PDF (English)](assets/cv-en.pdf)
-
 <button id="darkModeToggle">🌙 Toggle Dark Mode</button>
 
 <style>
@@ -42,6 +39,7 @@ body.dark-mode a {
     }
   });
 </script>
+🇬🇷 [Ελληνικά](cv-el.html) | 📄 [Download PDF (English)](assets/cv-en.pdf)
 
 # Grigoris Giannis  
 **Electronics Engineer | IT Support Specialist**
@@ -144,6 +142,7 @@ Design and Development of DCS1800 Mobile Telephony System (COSMOTE)
 ---
 
 © Grigoris Giannis
+
 
 
 
