@@ -5,6 +5,44 @@ title: Grigoris Giannis
 
 🇬🇷 [Ελληνικά](cv-el.html) | 📄 [Download PDF (English)](assets/cv-en.pdf)
 
+<button id="darkModeToggle">🌙 Toggle Dark Mode</button>
+
+<style>
+/* Default (light mode) */
+body {
+  background-color: #ffffff;
+  color: #000000;
+  font-family: sans-serif;
+}
+
+/* Dark mode */
+body.dark-mode {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+body.dark-mode a {
+  color: #80cbc4;
+}
+</style>
+
+<script>
+  // Restore saved preference
+  if(localStorage.getItem("darkMode") === "enabled") {
+    document.body.classList.add("dark-mode");
+  }
+
+  // Toggle on button click
+  document.getElementById("darkModeToggle").addEventListener("click", function() {
+    document.body.classList.toggle("dark-mode");
+    if(document.body.classList.contains("dark-mode")) {
+      localStorage.setItem("darkMode", "enabled");
+    } else {
+      localStorage.setItem("darkMode", "disabled");
+    }
+  });
+</script>
+
 # Grigoris Giannis  
 **Electronics Engineer | IT Support Specialist**
 
@@ -106,6 +144,7 @@ Design and Development of DCS1800 Mobile Telephony System (COSMOTE)
 ---
 
 © Grigoris Giannis
+
 
 
 
