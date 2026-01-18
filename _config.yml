@@ -1,6 +1,6 @@
 title: Grigoris Giannis
 description: Electronics Engineer & IT Support Specialist
-theme: jekyll-theme-minimal
+theme: jekyll-theme-slate
 
 markdown: kramdown
 
@@ -9,6 +9,9 @@ author:
 
 plugins:
   - jekyll-seo-tag
+github:
+  is_project_page: false
+
 
 
 
