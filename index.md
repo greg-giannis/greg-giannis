@@ -1,78 +1,80 @@
 ---
-layout: page
-title: Γρηγόρης Γιαννής
+layout: default
+title: Grigoris Giannis
 ---
 
-# Γρηγόρης Γιαννής  
-**Ηλεκτρονικός Μηχανικός / IT Support Specialist**
+# Grigoris Giannis  
+**Electronics Engineer | IT Support Specialist**
 
-📍 Αθήνα, Ελλάδα  
-📞 210 211 6954 | 📱 697 797 9884  
-✉️ greg_giannis@hotmail.com  
-
----
-
-## Προφίλ
-Ηλεκτρονικός Μηχανικός με πολυετή εμπειρία στην τεχνική υποστήριξη,
-τηλεπικοινωνίες, εταιρικά δίκτυα και συστήματα Microsoft & Linux.
-Ισχυρό υπόβαθρο σε troubleshooting, υποστήριξη εταιρικών πελατών
-και field service.
+📍 Athens, Greece  
+📧 greg_giannis@hotmail.com  
+📞 +30 210 211 6954 | +30 697 797 9884  
+🔗 [Greek version](cv-el.html) | 📄 [Download PDF](assets/cv-grigoris-giannis.pdf)
 
 ---
 
-## Επαγγελματική Εμπειρία
+## Professional Summary
+Electronics Engineer with extensive experience in IT support, telecommunications,
+enterprise networking, and Microsoft & Linux systems.
+Strong background in troubleshooting, corporate customer support,
+and field technical services.
 
-### Vodafone — *Τεχνική Υποστήριξη Εταιρικών Πελατών*  
+---
+
+## Professional Experience
+
+### Vodafone — *Corporate Technical Support*  
 **2017 – 2022**
-- Υποστήριξη σταθερής τηλεφωνίας, Internet και IPTV
-- Troubleshooting εταιρικών συνδέσεων
-- Τηλεφωνική εξυπηρέτηση πελατών
+- Support for fixed telephony, Internet, and IPTV services
+- Corporate network troubleshooting
+- Customer-facing technical support
 
-### Forthnet A.E. — *Τεχνική Υποστήριξη*  
+### Forthnet S.A. — *Technical Support Engineer*  
 **2010 – 2016**
-- Υποστήριξη σταθερής τηλεφωνίας, Internet και υπηρεσιών NOVA
+- Support for telephony, Internet, and NOVA services
 
-### CPI A.E. — *Dell Systems Engineer*  
+### CPI S.A. — *Dell Systems Engineer*  
 **2006 – 2009**
-- Πιστοποιημένος τεχνικός Dell (servers, desktops, laptops)
-- Εγκατάσταση και service συστημάτων Dell
-- Field τεχνικός
+- Certified Dell technician (servers, desktops, laptops)
+- Installation and maintenance of Dell systems
+- Field service engineer
 
-### NET SALES ΑΒΕΕ (Όμιλος BYTE) — *Hardware Technician*  
+### NET SALES S.A. (BYTE Group) — *Hardware Technician*  
 **2003 – 2004**
-- Service Η/Υ
-- Υποστήριξη εφαρμογών Singular
-- Τηλεφωνική & επιτόπια τεχνική υποστήριξη
+- PC hardware service
+- Support for Singular ERP applications
+- Remote and on-site support
 
-### Όμιλος Ν. Αυγερινόπουλου — *IT Support*  
+### N. Avgerinopoulos Group — *IT Support Specialist*  
 **2001 – 2003**
-- Υποστήριξη δικτύων ΙΕΚ & ΤΕΕ
-- Υποστήριξη καταστημάτων Beauty & Diet
+- Network support for vocational schools (IEK, TEE)
+- IT support for retail branches nationwide
 
-### Microland Computers AEBE (Όμιλος ALTEC) — *IT Technician*  
+### Microland Computers S.A. (ALTEC Group) — *IT Technician*  
 **1999 – 2001**
-- Service και παραγωγή Η/Υ
-- Εγκατάσταση HP, COMPAQ, IBM servers
-- Field τεχνικός
+- PC assembly and service
+- Installation of HP, COMPAQ, IBM servers
+- Field technical support
 
-### Informatics H/Y AEBE — *Πρακτική Άσκηση*  
+### Informatics H/Y S.A. — *Internship*  
 **1997 – 1998**
-- Παραγωγή Η/Υ
-- Μαζικές εγκαταστάσεις OS μέσω δικτύου
+- PC assembly
+- Mass OS deployment over network
 
 ---
 
-## Σπουδές
+## Education
 
-**Πτυχιούχος Ηλεκτρονικός Μηχανικός**  
-ΤΕΙ Πειραιά — *1993 – 1999*
+**BSc in Electronics Engineering**  
+Piraeus University of Applied Sciences  
+**1993 – 1999**
 
-**Πτυχιακή Εργασία:**  
-Ανάπτυξη και Σχεδίαση Συστήματος Κινητής Τηλεφωνίας DCS1800 (COSMOTE)
+**Thesis:**  
+Design and Development of DCS1800 Mobile Telephony System (COSMOTE)
 
 ---
 
-## Πιστοποιήσεις
+## Certifications
 - Microsoft Windows Server 2003 Network Infrastructure (070-291)
 - Managing Windows Server 2003 (070-290)
 - Windows XP Professional (070-270)
@@ -80,28 +82,26 @@ title: Γρηγόρης Γιαννής
 
 ---
 
-## Τεχνικές Δεξιότητες
+## Technical Skills
 
-**Λειτουργικά Συστήματα**
+**Operating Systems**
 - Windows NT → 11
 - Windows Server 2000 → 2016
 - Linux (Ubuntu, Fedora, Deepin)
 - macOS
 
-**Τεχνολογίες & Εργαλεία**
+**Tools & Technologies**
 - VMware Workstation
-- MS Office
+- Microsoft Office
 - Adobe Photoshop
-- DaVinci Resolve, Adobe Premiere Pro
+- DaVinci Resolve
+- Adobe Premiere Pro
 
 ---
 
-## Ξένες Γλώσσες
-- Αγγλικά — Πολύ καλή γνώση (Lower)
+## Languages
+- English — Very good (Lower)
 
 ---
 
-## Προσωπικά Στοιχεία
-- Ημ. Γέννησης: 10/02/1969
-- Τόπος Γέννησης: Μυτιλήνη
-- Στρατιωτικές Υποχρεώσεις: Εκπληρωμένες
+© Grigoris Giannis
