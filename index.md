@@ -2,7 +2,7 @@
 layout: default
 title: Grigoris Giannis
 ---
-<button id="darkModeToggle">🌙 Toggle Dark Mode</button>
+<button id="darkModeToggle">🌙 Dark Mode</button>
 
 <style>
 /* Default (light mode) */
@@ -142,6 +142,7 @@ Design and Development of DCS1800 Mobile Telephony System (COSMOTE)
 ---
 
 © Grigoris Giannis
+
 
 
 
