@@ -1,3 +1,13 @@
-title: Γρηγόρης Γιαννής
-theme: jekyll-theme-minimal
+title: Grigoris Giannis
+description: Electronics Engineer & IT Support Specialist
+theme: jekyll-theme-cayman
+
 markdown: kramdown
+
+author:
+  name: Grigoris Giannis
+
+plugins:
+  - jekyll-seo-tag
+
+
