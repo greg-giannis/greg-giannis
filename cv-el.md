@@ -21,6 +21,22 @@ body.dark-mode {
 body.dark-mode a {
   color: #80cbc4;
 }
+/* Button base style */
+#darkModeToggle {
+  background-color: #f0f0f0;
+  color: #000000;
+  border: 1px solid #ccc;
+  padding: 6px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+/* Button in dark mode */
+body.dark-mode #darkModeToggle {
+  background-color: #333333;
+  color: #ffffff;   /* bright text on dark background */
+  border: 1px solid #666;
+}
 </style>
 
 <script>
@@ -143,6 +159,7 @@ body.dark-mode a {
 - Ημ. Γέννησης: 10/02/1969
 - Τόπος Γέννησης: Μυτιλήνη
 - Στρατιωτικές Υποχρεώσεις: Εκπληρωμένες
+
 
 
 
