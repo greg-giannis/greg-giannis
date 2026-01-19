@@ -1,9 +1,73 @@
 ---
-layout: page
+layout: default
 title: Γρηγόρης Γιαννής
 ---
+<button id="darkModeToggle">🌙 Dark Mode</button>
 
-🔗 [English version](index.html)
+<style>
+/* Default (light mode) */
+body {
+  background-color: #ffffff;
+  color: #000000;
+  font-family: sans-serif;
+}
+
+/* Dark mode */
+body.dark-mode {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+body.dark-mode a {
+  color: #80cbc4;
+}
+/* Button base style */
+#darkModeToggle {
+  background-color: #f0f0f0;
+  color: #000000;
+  border: 1px solid #ccc;
+  padding: 6px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+/* Button in dark mode */
+body.dark-mode #darkModeToggle {
+  background-color: #333333;
+  color: #ffffff;   /* bright text on dark background */
+  border: 1px solid #666;
+}
+/* Hover effect (light mode) */
+#darkModeToggle:hover {
+  background-color: #e0e0e0;
+  opacity: 0.9;
+}
+
+/* Hover effect (dark mode) */
+body.dark-mode #darkModeToggle:hover {
+  background-color: #444444;
+  opacity: 0.9;
+}
+
+</style>
+
+<script>
+  // Restore saved preference
+  if(localStorage.getItem("darkMode") === "enabled") {
+    document.body.classList.add("dark-mode");
+  }
+
+  // Toggle on button click
+  document.getElementById("darkModeToggle").addEventListener("click", function() {
+    document.body.classList.toggle("dark-mode");
+    if(document.body.classList.contains("dark-mode")) {
+      localStorage.setItem("darkMode", "enabled");
+    } else {
+      localStorage.setItem("darkMode", "disabled");
+    }
+  });
+</script>
+🇬🇧 [English](index.html) | 📄 [Λήψη PDF (Ελληνικά)](assets/cv-el.pdf)
 
 # Γρηγόρης Γιαννής  
 **Ηλεκτρονικός Μηχανικός / IT Support Specialist**
@@ -23,6 +87,10 @@ title: Γρηγόρης Γιαννής
 ---
 
 ## Επαγγελματική Εμπειρία
+
+### Cosmote Telekom — *Τεχνική Υποστήριξη Εταιρικών Πελατών*
+**1-2-2024**
+- Τηλεφωνική υποστήριξη εταιρικών πελατών για προβλήματα σταθερής τηλεφωνίας και Internet
 
 ### Vodafone — *Τεχνική Υποστήριξη Εταιρικών Πελατών*  
 **2017 – 2022**
@@ -107,3 +175,13 @@ title: Γρηγόρης Γιαννής
 - Ημ. Γέννησης: 10/02/1969
 - Τόπος Γέννησης: Μυτιλήνη
 - Στρατιωτικές Υποχρεώσεις: Εκπληρωμένες
+
+
+
+
+
+
+
+
+
+

@@ -1,4 +1,4 @@
-title: Grigoris Giannis
+title: Γρηγόρης Γιαννής
 description: Electronics Engineer & IT Support Specialist
 theme: jekyll-theme-cayman
 
@@ -9,5 +9,18 @@ author:
 
 plugins:
   - jekyll-seo-tag
+github:
+  is_project_page: false
+
+
+
+
+
+
+
+
+
+
+
 
 

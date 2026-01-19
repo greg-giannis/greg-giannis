@@ -2,6 +2,72 @@
 layout: default
 title: Grigoris Giannis
 ---
+<button id="darkModeToggle">🌙 Dark Mode</button>
+
+<style>
+/* Default (light mode) */
+body {
+  background-color: #ffffff;
+  color: #000000;
+  font-family: sans-serif;
+}
+
+/* Dark mode */
+body.dark-mode {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+body.dark-mode a {
+  color: #80cbc4;
+}
+/* Button base style */
+#darkModeToggle {
+  background-color: #f0f0f0;
+  color: #000000;
+  border: 1px solid #ccc;
+  padding: 6px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+/* Button in dark mode */
+body.dark-mode #darkModeToggle {
+  background-color: #333333;
+  color: #ffffff;   /* bright text on dark background */
+  border: 1px solid #666;
+}
+/* Hover effect (light mode) */
+#darkModeToggle:hover {
+  background-color: #e0e0e0;
+  opacity: 0.9;
+}
+
+/* Hover effect (dark mode) */
+body.dark-mode #darkModeToggle:hover {
+  background-color: #444444;
+  opacity: 0.9;
+}
+
+</style>
+
+<script>
+  // Restore saved preference
+  if(localStorage.getItem("darkMode") === "enabled") {
+    document.body.classList.add("dark-mode");
+  }
+
+  // Toggle on button click
+  document.getElementById("darkModeToggle").addEventListener("click", function() {
+    document.body.classList.toggle("dark-mode");
+    if(document.body.classList.contains("dark-mode")) {
+      localStorage.setItem("darkMode", "enabled");
+    } else {
+      localStorage.setItem("darkMode", "disabled");
+    }
+  });
+</script>
+🇬🇷 [Ελληνικά](cv-el.html) | 📄 [Download PDF (English)](assets/cv-en.pdf)
 
 # Grigoris Giannis  
 **Electronics Engineer | IT Support Specialist**
@@ -9,7 +75,6 @@ title: Grigoris Giannis
 📍 Athens, Greece  
 📧 greg_giannis@hotmail.com  
 📞 +30 210 211 6954 | +30 697 797 9884  
-🔗 [Greek version](cv-el.html) | 📄 [Download PDF](assets/cv-grigoris-giannis.pdf)
 
 ---
 
@@ -23,6 +88,12 @@ and field technical services.
 
 ## Professional Experience
 
+### Cosmote Telekom — *Corporate Technical Support*
+**1-2-2024**
+- Support for fixed telephony and Internet services
+- Corporate network troubleshooting
+- Customer-facing technical support
+  
 ### Vodafone — *Corporate Technical Support*  
 **2017 – 2022**
 - Support for fixed telephony, Internet, and IPTV services
@@ -105,3 +176,14 @@ Design and Development of DCS1800 Mobile Telephony System (COSMOTE)
 ---
 
 © Grigoris Giannis
+
+
+
+
+
+
+
+
+
+
+
