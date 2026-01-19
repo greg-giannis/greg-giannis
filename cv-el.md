@@ -2,14 +2,13 @@
 layout: default
 title: Γρηγόρης Γιαννής
 ---
-<button id="darkModeToggle">🌙 Dark Mode</button>
+<button id="darkModeToggle" class="toggle-btn">🌙</button>
 
 <style>
-/* Default (light mode) */
+/* Light mode */
 body {
   background-color: #ffffff;
   color: #000000;
-  font-family: sans-serif;
 }
 
 /* Dark mode */
@@ -21,51 +20,51 @@ body.dark-mode {
 body.dark-mode a {
   color: #80cbc4;
 }
-/* Button base style */
-#darkModeToggle {
+
+/* Toggle button styling */
+.toggle-btn {
   background-color: #f0f0f0;
   color: #000000;
   border: 1px solid #ccc;
   padding: 6px 12px;
   cursor: pointer;
-  border-radius: 4px;
+  border-radius: 6px;
+  font-size: 18px;
+  transition: background-color 0.3s, color 0.3s, opacity 0.3s;
 }
 
 /* Button in dark mode */
-body.dark-mode #darkModeToggle {
+body.dark-mode .toggle-btn {
   background-color: #333333;
-  color: #ffffff;   /* bright text on dark background */
+  color: #ffffff;
   border: 1px solid #666;
 }
-/* Hover effect (light mode) */
-#darkModeToggle:hover {
-  background-color: #e0e0e0;
-  opacity: 0.9;
-}
 
-/* Hover effect (dark mode) */
-body.dark-mode #darkModeToggle:hover {
-  background-color: #444444;
-  opacity: 0.9;
+/* Hover effects */
+.toggle-btn:hover {
+  opacity: 0.85;
 }
-
 </style>
 
 <script>
-  // Restore saved preference
-  if(localStorage.getItem("darkMode") === "enabled") {
-    document.body.classList.add("dark-mode");
-  }
+// Restore saved preference
+if (localStorage.getItem("darkMode") === "enabled") {
+  document.body.classList.add("dark-mode");
+  document.getElementById("darkModeToggle").textContent = "☀️";
+}
 
-  // Toggle on button click
-  document.getElementById("darkModeToggle").addEventListener("click", function() {
-    document.body.classList.toggle("dark-mode");
-    if(document.body.classList.contains("dark-mode")) {
-      localStorage.setItem("darkMode", "enabled");
-    } else {
-      localStorage.setItem("darkMode", "disabled");
-    }
-  });
+// Toggle on click
+document.getElementById("darkModeToggle").addEventListener("click", function () {
+  document.body.classList.toggle("dark-mode");
+
+  if (document.body.classList.contains("dark-mode")) {
+    this.textContent = "☀️"; // Sun icon for dark mode
+    localStorage.setItem("darkMode", "enabled");
+  } else {
+    this.textContent = "🌙"; // Moon icon for light mode
+    localStorage.setItem("darkMode", "disabled");
+  }
+});
 </script>
 🇬🇧 [English](index.html) | 📄 [Λήψη PDF (Ελληνικά)](assets/cv-el.pdf)
 
@@ -175,6 +174,7 @@ body.dark-mode #darkModeToggle:hover {
 - Ημ. Γέννησης: 10/02/1969
 - Τόπος Γέννησης: Μυτιλήνη
 - Στρατιωτικές Υποχρεώσεις: Εκπληρωμένες
+
 
 
 
