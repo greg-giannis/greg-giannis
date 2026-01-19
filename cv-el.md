@@ -2,7 +2,8 @@
 layout: default
 title: Γρηγόρης Γιαννής
 ---
-<button id="darkModeToggle" class="toggle-btn">🌙</button>
+<!-- Floating dark mode toggle -->
+<button id="darkModeToggle" class="floating-toggle">🌙</button>
 
 <style>
 /* Light mode */
@@ -21,28 +22,33 @@ body.dark-mode a {
   color: #80cbc4;
 }
 
-/* Toggle button styling */
-.toggle-btn {
+/* Floating toggle button */
+.floating-toggle {
+  position: fixed;
+  top: 16px;
+  right: 16px;
   background-color: #f0f0f0;
   color: #000000;
   border: 1px solid #ccc;
-  padding: 6px 12px;
+  padding: 10px 12px;
   cursor: pointer;
-  border-radius: 6px;
-  font-size: 18px;
-  transition: background-color 0.3s, color 0.3s, opacity 0.3s;
+  border-radius: 50%;
+  font-size: 20px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.25);
+  transition: background-color 0.3s, color 0.3s, transform 0.2s;
+  z-index: 9999;
 }
 
-/* Button in dark mode */
-body.dark-mode .toggle-btn {
+/* Dark mode button */
+body.dark-mode .floating-toggle {
   background-color: #333333;
   color: #ffffff;
   border: 1px solid #666;
 }
 
-/* Hover effects */
-.toggle-btn:hover {
-  opacity: 0.85;
+/* Hover effect */
+.floating-toggle:hover {
+  transform: scale(1.1);
 }
 </style>
 
@@ -58,10 +64,10 @@ document.getElementById("darkModeToggle").addEventListener("click", function () 
   document.body.classList.toggle("dark-mode");
 
   if (document.body.classList.contains("dark-mode")) {
-    this.textContent = "☀️"; // Sun icon for dark mode
+    this.textContent = "☀️"; // Sun icon
     localStorage.setItem("darkMode", "enabled");
   } else {
-    this.textContent = "🌙"; // Moon icon for light mode
+    this.textContent = "🌙"; // Moon icon
     localStorage.setItem("darkMode", "disabled");
   }
 });
@@ -174,6 +180,7 @@ document.getElementById("darkModeToggle").addEventListener("click", function () 
 - Ημ. Γέννησης: 10/02/1969
 - Τόπος Γέννησης: Μυτιλήνη
 - Στρατιωτικές Υποχρεώσεις: Εκπληρωμένες
+
 
 
 
