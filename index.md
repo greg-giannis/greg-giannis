@@ -88,6 +88,12 @@ and field technical services.
 
 ## Professional Experience
 
+### Cosmote Telekom — *Corporate Technical Support*
+**1-2-2024**
+- Support for fixed telephony and Internet services
+- Corporate network troubleshooting
+- Customer-facing technical support
+  
 ### Vodafone — *Corporate Technical Support*  
 **2017 – 2022**
 - Support for fixed telephony, Internet, and IPTV services
@@ -170,6 +176,7 @@ Design and Development of DCS1800 Mobile Telephony System (COSMOTE)
 ---
 
 © Grigoris Giannis
+
 
 
 
