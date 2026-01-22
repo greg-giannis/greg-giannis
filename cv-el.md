@@ -1,7 +1,6 @@
 ---
-layout: page
+layout: default
 title: Γρηγόρης Γιαννής
-description: Ηλεκτρονικός Μηχανικός & IT Support Specialist με πολυετή εμπειρία σε τηλεπικοινωνίες και εταιρική τεχνική υποστήριξη σε Η/Υ και δίκτυα
 ---
 <!-- Floating dark mode toggle -->
 <button id="darkModeToggle" class="floating-toggle">🌙</button>
@@ -181,6 +180,7 @@ document.getElementById("darkModeToggle").addEventListener("click", function () 
 - Ημ. Γέννησης: 10/02/1969
 - Τόπος Γέννησης: Μυτιλήνη
 - Στρατιωτικές Υποχρεώσεις: Εκπληρωμένες
+
 
 
 
