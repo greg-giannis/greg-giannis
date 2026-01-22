@@ -2,6 +2,25 @@
 layout: default
 title: Grigoris Giannis
 ---
+<div class="cv-header">
+
+  <h1>Grigoris Giannis</h1>
+  <p class="cv-title">
+    Electronics Engineer | IT Support Specialist
+  </p>
+
+  <p class="cv-meta">
+    📍 Athens, Greece · 📧 greg_giannis@hotmail.com · 📞 210 211 6954 · 📱 697 797 9884
+  </p>
+
+  <div class="cv-actions">
+    <a href="index.html" class="cv-btn">🇬🇧 English Version</a>
+    <a href="/greg-giannis/assets/cv-en.pdf" class="cv-btn cv-btn-secondary">
+      📄 Λήψη PDF
+    </a>
+  </div>
+
+</div>
 <!-- Floating dark mode toggle -->
 <button id="darkModeToggle" class="floating-toggle">🌙</button>
 
@@ -72,14 +91,6 @@ document.getElementById("darkModeToggle").addEventListener("click", function () 
   }
 });
 </script>
-🇬🇷 [Ελληνικά](cv-el.html) | 📄 [Download PDF (English)](assets/cv-en.pdf)
-
-# Grigoris Giannis  
-**Electronics Engineer | IT Support Specialist**
-
-📍 Athens, Greece  
-📧 greg_giannis@hotmail.com  
-📞 +30 210 211 6954 | +30 697 797 9884  
 
 ---
 
@@ -181,6 +192,7 @@ Design and Development of DCS1800 Mobile Telephony System (COSMOTE)
 ---
 
 © Grigoris Giannis
+
 
 
 
