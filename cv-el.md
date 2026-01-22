@@ -2,6 +2,25 @@
 layout: default
 title: Γρηγόρης Γιαννής
 ---
+<div class="cv-header">
+
+  <h1>Γρηγόρης Γιαννής</h1>
+  <p class="cv-title">
+    Ηλεκτρονικός Μηχανικός · IT Support Specialist
+  </p>
+
+  <p class="cv-meta">
+    📍 Αθήνα · 📧 greg_giannis@hotmail.com · 📞 210 211 6954 · 📱 697 797 9884
+  </p>
+
+  <div class="cv-actions">
+    <a href="index.html" class="cv-btn">🇬🇧 English Version</a>
+    <a href="/greg-giannis/assets/cv-el.pdf" class="cv-btn cv-btn-secondary">
+      📄 Λήψη PDF
+    </a>
+  </div>
+
+</div>
 <!-- Floating dark mode toggle -->
 <button id="darkModeToggle" class="floating-toggle">🌙</button>
 
@@ -72,15 +91,6 @@ document.getElementById("darkModeToggle").addEventListener("click", function () 
   }
 });
 </script>
-🇬🇧 [English](index.html) | 📄 [Λήψη PDF (Ελληνικά)](assets/cv-el.pdf)
-
-# Γρηγόρης Γιαννής  
-**Ηλεκτρονικός Μηχανικός / IT Support Specialist**
-
-📍 Αθήνα, Ελλάδα  
-📞 210 211 6954 | 📱 697 797 9884  
-✉️ greg_giannis@hotmail.com  
-
 ---
 
 ## Προφίλ
@@ -180,6 +190,7 @@ document.getElementById("darkModeToggle").addEventListener("click", function () 
 - Ημ. Γέννησης: 10/02/1969
 - Τόπος Γέννησης: Μυτιλήνη
 - Στρατιωτικές Υποχρεώσεις: Εκπληρωμένες
+
 
 
 
