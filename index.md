@@ -14,7 +14,7 @@ title: Grigoris Giannis
   </p>
 
   <div class="cv-actions">
-    <a href="index.html" class="cv-btn">🇬🇧 English Version</a>
+    <a href="index.html" class="cv-btn">GR Ελληνικά</a>
     <a href="/greg-giannis/assets/cv-en.pdf" class="cv-btn cv-btn-secondary">
       📄 Λήψη PDF
     </a>
@@ -192,6 +192,7 @@ Design and Development of DCS1800 Mobile Telephony System (COSMOTE)
 ---
 
 © Grigoris Giannis
+
 
 
 
