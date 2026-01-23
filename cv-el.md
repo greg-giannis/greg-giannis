@@ -21,53 +21,6 @@ title: Γρηγόρης Γιαννής
   </div>
 
 </div>
-
-<style>
-.cv-header {
-  text-align: center;
-  margin-bottom: 2.5rem;
-}
-
-.cv-title {
-  font-size: 1.2rem;
-  margin-top: 0.3rem;
-  color: #555;
-}
-
-.cv-meta {
-  font-size: 0.95rem;
-  color: #666;
-  margin: 0.8rem 0 1.2rem;
-}
-
-.cv-actions {
-  margin-top: 1.2rem;
-}
-
-.cv-btn {
-  display: inline-block;
-  padding: 0.6rem 1.1rem;
-  margin: 0.3rem;
-  border-radius: 6px;
-  background: #0366d6;
-  color: #fff;
-  text-decoration: none;
-  font-weight: 500;
-}
-
-.cv-btn:hover {
-  background: #024ea2;
-}
-
-.cv-btn-secondary {
-  background: #6a737d;
-}
-
-.cv-btn-secondary:hover {
-  background: #4f5861;
-}
-</style>
-
 <!-- Floating dark mode toggle -->
 <button id="darkModeToggle" class="floating-toggle">🌙</button>
 
@@ -237,6 +190,7 @@ document.getElementById("darkModeToggle").addEventListener("click", function () 
 - Ημ. Γέννησης: 10/02/1969
 - Τόπος Γέννησης: Μυτιλήνη
 - Στρατιωτικές Υποχρεώσεις: Εκπληρωμένες
+
 
 
 
