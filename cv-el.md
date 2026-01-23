@@ -15,7 +15,7 @@ title: Γρηγόρης Γιαννής
 
   <div class="cv-actions">
     <a href="index.html" class="cv-btn">🇬🇧 English Version</a>
-    <a href="/cv/assets/cv-el.pdf" class="cv-btn cv-btn-secondary">
+    <a href="/greg-giannis/bio/blob/main/assets/cv-el.pdf" class="cv-btn cv-btn-secondary">
       📄 Λήψη PDF
     </a>
   </div>
@@ -190,6 +190,7 @@ document.getElementById("darkModeToggle").addEventListener("click", function () 
 - Ημ. Γέννησης: 10/02/1969
 - Τόπος Γέννησης: Μυτιλήνη
 - Στρατιωτικές Υποχρεώσεις: Εκπληρωμένες
+
 
 
 
